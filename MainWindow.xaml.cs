@@ -16,7 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 using System.Media;
-
+// Part 2 WPF Chatbot - Created by Adivhaho Angel Mudau
 // Commit 2 - Adding documentation
 
 namespace CybersecurityChatbotWPF
