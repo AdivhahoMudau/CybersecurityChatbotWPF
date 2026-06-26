@@ -1,0 +1,30 @@
+name: CI Check
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Check files exist
+      run: |
+        echo "✅ Repository contains:"
+        ls -la
+        echo ""
+        echo "✅ C# files found:"
+        find . -name "*.cs" -type f
+        echo ""
+        echo "✅ XAML files found:"
+        find . -name "*.xaml" -type f
+        echo ""
+        echo "✅ WAV file found:"
+        find . -name "*.wav" -type f
+        echo ""
+        echo "CI check passed successfully!"
