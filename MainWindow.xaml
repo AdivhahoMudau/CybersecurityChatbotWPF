@@ -136,6 +136,11 @@
                     Background="#007ACC" Foreground="White"
                     FontSize="12" FontWeight="Bold"
                     Click="btnHelp_Click" Cursor="Hand"/>
+            <Button x:Name="btnQuiz" Content="Start Quiz" 
+                    Margin="5" Padding="15,8"
+                    Background="#FF8C" Foreground="White"
+                    FontSize="12" FontWeight="Bold"
+                    Click="btnQuiz_Click" Cursor="Hand"/>
 
             <Button x:Name="btnExit" Content="Exit" 
                     Margin="5" Padding="15,8"
