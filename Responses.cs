@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-<<<<<<< HEAD
-// Added documentation
-=======
->>>>>>> ab636a6feb5f380b4618c3ff002636cc4e47da4d
+
 namespace CybersecurityChatbotWPF  //Changed from part 1's namespace to match part 2's namespace
 {
     internal class Responses
