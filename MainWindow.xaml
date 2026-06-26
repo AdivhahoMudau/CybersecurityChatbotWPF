@@ -133,7 +133,7 @@
 
             <Button x:Name="btnHelp" Content="Help" 
                     Margin="5" Padding="15,8"
-                    Background="#006AA" Foreground="White"
+                    Background="#0066AA" Foreground="White"
                     FontSize="12" FontWeight="Bold"
                     Click="btnHelp_Click" Cursor="Hand"/>
             <Button x:Name="btnQuiz" Content="Start Quiz" 
